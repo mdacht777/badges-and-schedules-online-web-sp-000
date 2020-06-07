@@ -24,7 +24,7 @@ end
 def printer(array)
   arr1=batch_badge_creator(array)
   arr2=assign_rooms(array)
-  i-0
+  i=0
   arr1.each do |att|
     puts att
     puts arr2[i]
